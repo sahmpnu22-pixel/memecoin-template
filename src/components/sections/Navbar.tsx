@@ -95,12 +95,7 @@ export function Navbar() {
               </a>
             ))}
           </div>
-          <Button
-            href={links.buy}
-            size="sm"
-            icon={<Rocket className="size-4" />}
-            className="ml-1"
-          >
+          <Button href={links.buy} size="sm" icon={<Rocket className="size-4" />} className="ml-1">
             Buy Now
           </Button>
           <button
