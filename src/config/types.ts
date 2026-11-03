@@ -117,6 +117,11 @@ export interface RoadmapPhase {
   items: string[];
 }
 
+export interface CommunityConfig {
+  title: string;
+  description: string;
+}
+
 export interface FaqItem {
   q: string;
   a: string;
@@ -146,6 +151,7 @@ export interface SiteConfig {
   tokenomics: TokenomicsConfig;
   howToBuy: HowToBuyStep[];
   roadmap: RoadmapPhase[];
+  community: CommunityConfig;
   faq: FaqItem[];
   /** Order of sections on the page. Remove an id to hide that section. */
   sections: SectionId[];

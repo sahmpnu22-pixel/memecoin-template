@@ -124,6 +124,11 @@ export const siteConfig: SiteConfig = {
     },
   ],
 
+  community: {
+    title: "Join the pond",
+    description: "The community is the project. Come say hi, share memes and stay in the loop.",
+  },
+
   faq: [
     { q: "Is the liquidity locked?", a: "Liquidity is 100% burned, so it can never be removed." },
     { q: "Is there a tax?", a: "No. Buy and sell tax are both 0%." },

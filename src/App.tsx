@@ -3,7 +3,18 @@ import type { ComponentType } from "react";
 import { siteConfig } from "@/config/site.config";
 import type { SectionId } from "@/config/types";
 import { GlowBackground, NoiseOverlay } from "@/components/effects";
-import { About, Hero, Navbar, StatsBar, Tokenomics } from "@/components/sections";
+import {
+  About,
+  Community,
+  FAQ,
+  Footer,
+  Hero,
+  HowToBuy,
+  Navbar,
+  Roadmap,
+  StatsBar,
+  Tokenomics,
+} from "@/components/sections";
 import { useSiteMeta } from "@/lib/useSiteMeta";
 
 /**
@@ -15,10 +26,10 @@ const registry: Partial<Record<SectionId, ComponentType>> = {
   stats: StatsBar,
   about: About,
   tokenomics: Tokenomics,
-  // howToBuy: HowToBuy,
-  // roadmap: Roadmap,
-  // community: Community,
-  // faq: FAQ,
+  howToBuy: HowToBuy,
+  roadmap: Roadmap,
+  community: Community,
+  faq: FAQ,
 };
 
 const loadMotionFeatures = () => import("@/lib/motionFeatures").then((mod) => mod.default);
@@ -45,6 +56,7 @@ export default function App() {
               return Section ? <Section key={id} /> : null;
             })}
           </main>
+          <Footer />
         </div>
       </MotionConfig>
     </LazyMotion>
