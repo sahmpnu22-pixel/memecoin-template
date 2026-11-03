@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7EE787"/><stop offset="1" stop-color="#2EA043"/></linearGradient>
+    <linearGradient id="coin" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+    <radialGradient id="shine" cx="0.35" cy="0.3" r="0.7"><stop offset="0" stop-color="#fff" stop-opacity=".35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <!-- coin -->
+  <circle cx="240" cy="250" r="200" fill="url(#coin)"/>
+  <circle cx="240" cy="250" r="176" fill="none" stroke="#fff" stroke-opacity=".25" stroke-width="4" stroke-dasharray="6 10"/>
+  <!-- frog head -->
+  <ellipse cx="240" cy="290" rx="150" ry="110" fill="url(#body)"/>
+  <circle cx="170" cy="190" r="62" fill="url(#body)"/>
+  <circle cx="310" cy="190" r="62" fill="url(#body)"/>
+  <circle cx="170" cy="190" r="44" fill="#fff"/>
+  <circle cx="310" cy="190" r="44" fill="#fff"/>
+  <circle cx="180" cy="196" r="20" fill="#07070B"/>
+  <circle cx="320" cy="196" r="20" fill="#07070B"/>
+  <circle cx="187" cy="188" r="6" fill="#fff"/>
+  <circle cx="327" cy="188" r="6" fill="#fff"/>
+  <path d="M150 300c40 46 140 46 180 0" stroke="#7A1E2C" stroke-width="16" fill="#C2410C" stroke-linecap="round"/>
+  <ellipse cx="160" cy="268" rx="20" ry="11" fill="#F472B6" opacity=".55"/>
+  <ellipse cx="320" cy="268" rx="20" ry="11" fill="#F472B6" opacity=".55"/>
+  <circle cx="240" cy="250" r="200" fill="url(#shine)"/>
+</svg>

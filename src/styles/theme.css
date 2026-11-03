@@ -1,0 +1,61 @@
+/**
+ * ─────────────────────────────────────────────────────────────
+ *  THEME — brand colors & design tokens.
+ *  Pick a preset in site.config.ts (`theme`), or edit the
+ *  variables of a preset below to create your own look.
+ * ─────────────────────────────────────────────────────────────
+ */
+
+/* Shared tokens (all presets) */
+:root {
+  --bg: #07070b;
+  --surface: #0f0f17;
+  --line: rgb(255 255 255 / 0.08);
+  --text: #f5f5f7;
+  --muted: #a1a1aa;
+  --success: #22c55e;
+  --danger: #ef4444;
+
+  /* Glass */
+  --glass-bg: rgb(255 255 255 / 0.04);
+  --glass-bg-strong: rgb(255 255 255 / 0.08);
+  --glass-blur: 16px;
+  --glass-blur-strong: 24px;
+  --glass-border: rgb(255 255 255 / 0.08);
+
+  /* Radius */
+  --r-sm: 8px;
+  --r-md: 12px;
+  --r-lg: 20px;
+
+  /* Noise texture strength (0 to hide) */
+  --noise-opacity: 0.035;
+}
+
+/* ── Preset: Neon Purple (default) ─────────────────────────── */
+:root,
+[data-theme="neon-purple"] {
+  --accent: #8b5cf6;
+  --accent-2: #22d3ee;
+  --accent-rgb: 139 92 246;
+  --accent-2-rgb: 34 211 238;
+  --on-accent: #ffffff;
+}
+
+/* ── Preset: Degen Green ───────────────────────────────────── */
+[data-theme="degen-green"] {
+  --accent: #84cc16;
+  --accent-2: #facc15;
+  --accent-rgb: 132 204 22;
+  --accent-2-rgb: 250 204 21;
+  --on-accent: #07070b;
+}
+
+/* ── Preset: Solana Gradient ───────────────────────────────── */
+[data-theme="solana-gradient"] {
+  --accent: #9945ff;
+  --accent-2: #14f195;
+  --accent-rgb: 153 69 255;
+  --accent-2-rgb: 20 241 149;
+  --on-accent: #ffffff;
+}
