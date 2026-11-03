@@ -22,6 +22,9 @@ Requires Node.js 20 or newer.
 | `links` | Buy (DEX), chart and social links. Remove a social to hide its icon |
 | `nav` | Menu items and the section each one scrolls to |
 | `hero` | Badge, headline, gradient highlight, subheadline and buttons |
+| `stats`, `about`, `tokenomics` | Key numbers, story text and token allocation (percentages should add up to 100) |
+| `howToBuy`, `roadmap`, `faq` | Buying steps (with icon names), roadmap phases (`done`, `in-progress`, `upcoming`) and questions |
+| `community`, `footer` | Community section copy, disclaimer and copyright |
 | `sections` | Order of sections. Remove an id to hide that section |
 
 Your editor autocompletes every field and flags typos before you build.
@@ -55,7 +58,7 @@ src/
   styles/index.css        (Tailwind setup and design tokens)
   components/ui/          Button, GlassCard, Badge, CopyField, Counter, Accordion, SectionHeading
   components/effects/     GlowBackground, NoiseOverlay, FloatingMascot, Reveal
-  components/sections/    Navbar, Hero, …
+  components/sections/    Navbar, Hero, Stats, About, Tokenomics, HowToBuy, Roadmap, Community, FAQ, Footer
   lib/                    hooks and helpers
 ```
 

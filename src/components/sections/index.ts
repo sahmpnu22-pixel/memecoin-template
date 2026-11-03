@@ -1,5 +1,10 @@
 export { About } from "./About";
+export { Community } from "./Community";
+export { FAQ } from "./FAQ";
+export { Footer } from "./Footer";
 export { Hero } from "./Hero";
+export { HowToBuy } from "./HowToBuy";
 export { Navbar } from "./Navbar";
+export { Roadmap } from "./Roadmap";
 export { StatsBar } from "./StatsBar";
 export { Tokenomics } from "./Tokenomics";
