@@ -7,7 +7,7 @@ import type { SiteConfig } from "./types";
  *  Colors live in src/styles/theme.css.
  * ─────────────────────────────────────────────────────────────
  */
-export const siteConfig = {
+export const siteConfig: SiteConfig = {
   token: {
     name: "Pepe Moon",
     ticker: "$PMOON",
@@ -142,6 +142,6 @@ export const siteConfig = {
       "$PMOON is a memecoin with no intrinsic value or expectation of financial return. It is for entertainment purposes only. Always do your own research.",
     copyright: "© 2026 Pepe Moon. All rights reserved.",
   },
-} satisfies SiteConfig;
+};
 
 export type { SiteConfig };

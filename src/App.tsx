@@ -3,7 +3,7 @@ import type { ComponentType } from "react";
 import { siteConfig } from "@/config/site.config";
 import type { SectionId } from "@/config/types";
 import { GlowBackground, NoiseOverlay } from "@/components/effects";
-import { Hero, Navbar } from "@/components/sections";
+import { About, Hero, Navbar, StatsBar, Tokenomics } from "@/components/sections";
 import { useSiteMeta } from "@/lib/useSiteMeta";
 
 /**
@@ -12,9 +12,9 @@ import { useSiteMeta } from "@/lib/useSiteMeta";
  */
 const registry: Partial<Record<SectionId, ComponentType>> = {
   hero: Hero,
-  // stats: StatsBar,
-  // about: About,
-  // tokenomics: Tokenomics,
+  stats: StatsBar,
+  about: About,
+  tokenomics: Tokenomics,
   // howToBuy: HowToBuy,
   // roadmap: Roadmap,
   // community: Community,
